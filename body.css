@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #f3efefdc;
+    --secondary-color: rgba(0, 0, 0, 0.941);
+}
+body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: 'Oswald', sans-serif;
+}
+.bg-gradient{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#373737, #0f0f0f);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+    background-color: rgba(99, 98, 98, 0.48);
+}
+nav {
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+/* Add some padding to the content to prevent it from being hidden under the fixed navbar */
+body {
+padding-top: 40px;
+}
+/* Add some styles to the content for illustration purposes */
+.content {
+padding: 20px;
+}
+#icon{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 8%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--primary-color) ;
+}
+nav ul li a:hover{
+    color: #8ba8c3;
+    font-size: 1.01rem;
+    cursor: pointer;
+}
+.left{
+    color: #8ba8c3;
+    font-size: 2.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 4%; */
+}
+.leftsection{
+    width: 39%;
+    font-size: 4.8rem;
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-bottom: 2.9%;
+    align-items: center;
+}
+.rightsection{
+    width: 40.72%;
+    /* margin-left: 0%; */
+    margin-top: 4%;
+}
+ .secondline{
+    font-size: 2rem;
+}
+.owner{
+    color: #8ba8c3;
+}
+#element{
+    color: #8ba8c3;
+}
+.second {
+    max-width: 80vw;
+    margin-left: 120px;
+    margin-bottom: 70px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.box {
+width: 150px; /* Set the width of your boxes */
+height: 100px; /* Set the height of your boxes */
+float:left;
+margin: 10px; /* Optional: Set margin for spacing between the boxes */
+border: 1px solid var(--secondary-color); /* Optional: Add a border for better visibility */
+}
+.container {
+display: flex;
+justify-content: space-evenly;
+}
+
+.left-side, .right-side {
+flex: 1;
+padding: 20px;
+border: 0px solid var(--secondary-color); /* Optional: Add a border for better visibility */
+}
+
+/* Clearfix to contain floated elements */
+.clearfix::after {
+content: "";
+display: table;
+clear: both;
+}
+.MainTopic{
+    margin: 4%;
+    font-size: 3rem;
+    color: #8ba8c3;
+    display: flex;
+    justify-content: center;
+}
+.myname{
+    margin: 4%;
+}
+.p{
+    font-size: 10rem;
+}
+.third{
+    max-width: 80vw;
+    margin-left: 120px;
+    margin-bottom: 70px;
+}
+.fourth{
+    max-width: 80vw;
+    margin-left: 120px;
+    margin-bottom: 70px;
+}
+::-webkit-scrollbar {
+width: 8px; /* Adjust the width as needed */
+}
+::-webkit-scrollbar-track {
+background-color: transparent; /* Set the background color to transparent */
+}
+::-webkit-scrollbar-thumb {
+background-color: #888; /* Set the color of the scrollbar thumb */
+border-radius: 6px; /* Optional: Add rounded corners to the scrollbar thumb */
+}
+.pagesecond1{
+    display: flex;
+    justify-content:left;
+}
+div .box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+.knowledge{
+    display: flex;
+    justify-content: center;
+}
+.CV{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(99, 98, 98, 0.48);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button .CV{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: rgba(99, 98, 98, 0.48);
+    height: 250px;
+    display: flex;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+    }
+.footerRights{
+    margin: 15px;
+    font-size: 1rem;
+    color: gray;
+}
+footer .footerRights{
+    text-align: center;
+}
+.firstfooter{
+    padding:6%;;
+}
+.firstfooterhead{
+    margin-bottom: 3%;
+}
+.secondfooter{
+    margin: 30px;
+    list-style: none;
+}
+.secondfooter li{
+    margin: 25px;
+}
+.footerlinks{
+    margin: 15%;
+    color: #8ba8c3;
+}
+.a{
+    text-decoration: none;
+    color: #8ba8c3;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration:none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* .footerlinks{
+    margin-top: 12px;
+    margin-left: 30px;
+} */
+@media (max-width:600px) {
+    /* .first{background-color: lightblue;} */
+}

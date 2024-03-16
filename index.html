@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek | Portfolio</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="body.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhishek's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li class="#Home"><a href="">Home</a></li>
+                    <li><a href="#Experiences">Experiences</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Works">Works</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                </ul>
+            </div>
+            <img src="pngtree-sun-icon-design-png-image_1518941.png" id="icon">
+        </nav>
+    </header>
+    <main>
+        <section id="#Home" class="first">
+            <div class="leftsection">Hello 
+                <span class="owner">Abhishek</span> here
+                <span id="element"></span>
+                <div class="secondline">NITian from Rourkela &#128526;</div>
+                <img src="output-onlinegiftools.gif" alt=""
+                width="83%">
+                <!-- <div style="width:100%;height:0;padding-bottom:93%;position:relative;"><iframe src="https://giphy.com/embed/U7b1RLXPGmcEU4u6f0" width="60%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/arrow-U7b1RLXPGmcEU4u6f0"></a></p> -->
+                <!-- <img src="arrow.png" alt=""
+                width="60%"> -->
+            </div>
+            <div class="rightsection">
+                <img src="image.png" alt=""
+                width = 95%>
+            </div>
+        </section>
+        <section id="Experiences" class="second">
+            <hr style="background-color: grey;
+            height: 2px;">
+            <!-- <span class="extrafirst">which  were interesting i guess</span> -->
+            <div class="container">
+                <div class="left-side">
+                  <!-- Content for the left side -->
+                  <img src="WhatsApp Image 2024-01-21 at 23.41.11.jpeg" alt=""
+                  width="95%">
+                </div>
+                <div class="right-side">
+                  <!-- Content for the right side -->
+                  <h1 class="MainTopic">Experiences &#129322;</h1>
+                  <h2 class="myname">I'm Abhishek Namdev Davhale</h2>
+                  <p>naam to suna hi hoga !</p>
+                  <p>Currently persuing B.Tech degree in Mechanical Engineering in NIT Rourkela</p>
+                </div>
+              </div>
+        </section>
+        <section id="About" class="third">
+            <hr style="background-color: grey;">
+            <h1 class="MainTopic">About &#129321;</h1>
+            <div class="knowledge">
+                <div class="preknowledge"></div>
+                <div class="currentknowledge">For any job related queries or if you want to hire or work with me, you can see my CV below</div>
+                <div class="futureknowledge"></div>
+            </div>
+            <button class="CV"><a href="https://drive.google.com/file/d/1oBLrDTTP9uDgG4n1-kxzx6HD39sIchDj/view?usp=share_link" target="_blank">My CV</a></button>
+        </section>
+        <section id="Works" class="fourth">
+            <hr style="background-color: grey;">
+            <h1 class="MainTopic">Works &#129488;</h1>
+            <div class="mywork">This is my 1st attempt to make a portfolio website 👨🏻‍💻</div>
+            <div>So go easy on me 😌</div>
+            <div>I am always available for any reviews on this 🤗</div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Mechanical Engineer'],
+          typeSpeed: 40,
+        });
+        var icon = document.getElementById("icon")
+        icon.oneclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains(dark-theme)){
+                icon.src = "pngtree-sun-icon-design-png-image_1518941.png";
+            }else{
+                icon.src = "4445942-2.png";
+            }
+        }
+    </script>
+    <footer>
+        <div id="Contacts" class="footer">
+            <div class="firstfooter">
+                <h2 class="firstfooter">Abhishek's Portfolio &#128513;</h2>
+                <p> </p>
+                <p>Your friendly neighborhood pal will always respond to your call ! &#128375; &#128376;</p>
+                <p>Your Batman stays vigilant through the night as well !&#128520;</p>
+            </div>
+            <div class="secondfooter">
+                 <ul>
+                    <li class="footerlinks"><a href="https://www.linkedin.com/in/abhishek-davhale-46a70a24a/">LinkedIn</a></li>
+                    <li class="footerlinks"><a href="https://www.instagram.com/abhishek.davhale/">Instagram</a></li>
+                    <li class="footerlinks"><a href=""></a>Gmail</li>
+                    <a class="footerlinks" href="mailto:abhisheknd0503@gmail.com" target="_blank">Reach out</a>
+                </ul>
+            </div>
+            <div class="thirdfooter"></div>
+            <div class="fourthfooter"></div>  
+        </div>
+        <div class="footerRights">copyright &#169; www.AbhisheksPortfolio.com | All rights reserved</div>
+    </footer>
+</body>
+</html>
